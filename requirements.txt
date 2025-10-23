@@ -1,0 +1,24 @@
+# Clinical Trials Analytics Project Dependencies
+# 
+# This file contains all required Python packages and their minimum versions
+# for the Clinical Trials Analytics project.
+#
+# To install all dependencies, run:
+# pip install -r requirements.txt
+#
+# Core Data Processing:
+pandas>=1.5.0          # Data manipulation and analysis
+numpy>=1.24.0           # Numerical computing
+scipy>=1.10.0           # Scientific computing and statistics
+
+# Web Framework and API:
+flask>=2.3.0            # Web framework for REST API
+flask-cors>=4.0.0       # Cross-Origin Resource Sharing for API
+
+# Data Visualization:
+streamlit>=1.28.0       # Interactive web dashboard
+plotly>=5.15.0          # Interactive plotting library
+altair>=5.0.0           # Statistical visualization (used by Streamlit)
+
+# Data Generation:
+faker                   # Generate realistic synthetic data
